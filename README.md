@@ -4,6 +4,7 @@
 * [算法分析的正确姿势](http://www.cnblogs.com/absfree/p/5464779.html)
 * [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
 * [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
+<br/>
 *[在js的循环中。如果要合并的时候没，可以循环这个数值对象。看有多少次，然后计算出要合并的几次。在循环的结果中可以删减已循环的对象。这样可以加快循环。不用每次都去循环。浪费时间，但在删减的过程中要注意索引。要重置索引，当然在第二次可能中的循环也要的，看情况而定比如]
  function merge(mergeList) {/*合并街道 与 合并社区 数据处理*/
             var array = mergeList.concat();
