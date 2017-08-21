@@ -5,6 +5,7 @@
 * [算法精粹](https://www.gitbook.com/book/soulmachine/algorithm-essentials/details)
 * [数据结构与算法设计](https://suanfa.herokuapp.com/0preface/)
 * [fastjson 使用方法，打印JSON的方法](http://blog.csdn.net/zeuskingzb/article/details/17468079)
+* [angluar ui-grid的api](http://ui-grid.info/docs/#/tutorial/214_pagination)
 <br/>
 在js的循环中。如果要合并的时候没，可以循环这个数值对象。看有多少次，然后计算出要合并的几次。在循环的结果中可以删减已循环的对象。这样可以加快循环。不用每次都去循环。浪费时间，但在删减的过程中要注意索引。要重置索引，当然在第二次可能中的循环也要的，看情况而定比如
 <br/>
