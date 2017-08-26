@@ -64,6 +64,8 @@
 (1)在查询关联多个表时，只显示其中一个表的数据时可以用表名.*来表示。<br/>
 《dialog弹窗的常用笔记》<br/>
 （1）在使用dialog弹窗时。弹窗是模态的弹窗，所以要自定义弹窗时，个弹窗里面的是模态html，就是自己写的html。比如<br/>
+
+
 {
         <script type="text/template" id="testTemplate">
             <div class="modal-content" style="height:380px;width:780px;padding:9px;">
