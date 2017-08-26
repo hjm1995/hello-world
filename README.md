@@ -87,7 +87,7 @@
    在<scropt>的标签中就是你定义的html页面。在用弹窗时只需要给id就可以了，比如<br/>
      $rootScope.winWeChat=function () {//打开微信扫二维码下载
            dialog.open('#testTemplate');
-       }
- 《angularjs的常用笔记》<br/>
+       }<br/>
+	<h4>《angularjs的常用笔记》</h4><br/>
 (1)、在使用ng-click时，有时会发生作用域的问题，使得点击按钮会没有反应。解决方法，1、在创个div把这个ng-click包起来给个ng-controller指向方法的所在controller
 
