@@ -61,4 +61,28 @@
 《Hibernate的记错笔记》<br/>
 （1）、在用hql查询时，select查询的不是数据库的表，而是实体类<br/>
 《sql的常用笔记》<br/>
-(1)在查询关联多个表时，只显示其中一个表的数据时可以用表名.*来表示。
+(1)在查询关联多个表时，只显示其中一个表的数据时可以用表名.*来表示。<br/>
+《dialog弹窗的常用笔记》<br/>
+（1）在使用dialog弹窗时。弹窗是模态的弹窗，所以要自定义弹窗时，个弹窗里面的是模态html，就是自己写的html。比如<br/>
+        <script type="text/template" id="testTemplate">
+            <div class="modal-content" style="height:380px;width:780px;padding:9px;">
+                <#--<div class="modal-header">
+                    <button type="button" class="close" ng-click="cancel()" aria-hidden="true">
+                        &times;
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">若地图不显示，请刷新后重试</h4>
+                </div>
+                <div class="modal-body">
+                    <div style="width: 100%;height: 620px;">
+                      dfjhfgdghfjhfdghfdghfjhfgjkgjk
+                    </div>
+                </div>-->
+				<#include "/index/admin/WeChatWin.html"/>
+            </div>
+        </script>
+   在<scropt>的标签中就是你定义的html页面。在用弹窗时只需要给id就可以了，比如<br/>
+     $rootScope.winWeChat=function () {//打开微信扫二维码下载
+           dialog.open('#testTemplate');
+       }
+ 
+
