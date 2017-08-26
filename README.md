@@ -88,5 +88,6 @@
      $rootScope.winWeChat=function () {//打开微信扫二维码下载
            dialog.open('#testTemplate');
        }
- 
+ 《angularjs的常用笔记》<br/>
+(1)、在使用ng-click时，有时会发生作用域的问题，使得点击按钮会没有反应。解决方法，1、在创个div把这个ng-click包起来给个ng-controller指向方法的所在controller
 
