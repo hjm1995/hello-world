@@ -91,5 +91,8 @@
 	<h4>《angularjs的常用笔记》</h4><br/>
 (1)、在使用ng-click时，有时会发生作用域的问题，使得点击按钮会没有反应。解决方法，1、在创个div把这个ng-click包起来给个ng-controller指向方法的所在controller
 <h4>《springmvc的一些骚操作》</h4><br/>
-(1)、在一个list里想要添加时。先new一下list里的对象。然后set对象属性。在add到list里去。当取出来的list对象是null时。可以在定义的这个list对象让他=new Array。
+(1)、在一个list里想要添加时。先new一下list里的对象。然后set对象属性。在add到list里去。当取出来的list对象是null时。可以在定义的这个list对象让他=new Array。<br/>
+<h4>《angularjs的一些骚操作》</h4><br/>
+(1)、在js中。想要取到作用域scope时。可以通过id去取。比如你想取某个页面的作用域，可以定那个页面的id，在js中用<br/>
+	var  scope = angular.element("#manual" ).scope();//获取到当前作用域<br/>
 
