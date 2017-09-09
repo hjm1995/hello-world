@@ -62,6 +62,7 @@
 （1）、在用hql查询时，select查询的不是数据库的表，而是实体类<br/>
 <h5>《sql的常用笔记》</h5><br/>
 (1)在查询关联多个表时，只显示其中一个表的数据时可以用表名.*来表示。<br/>
+(2)在表中添加字段用ALTER TABLE cs_repairregister add leaderAllotId VARCHAR(64) NULL , add leaderAllotName VARCHAR(64) NULL, add leaderAllotDate Datetime 
 <h5>《dialog弹窗的常用笔记》</h5><br/>
 （1）在使用dialog弹窗时。弹窗是模态的弹窗，所以要自定义弹窗时，个弹窗里面的是模态html，就是自己写的html。比如<br/>
 
