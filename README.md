@@ -96,4 +96,8 @@
 <h4>《angularjs的一些骚操作》</h4><br/>
 (1)、在js中。想要取到作用域scope时。可以通过id去取。比如你想取某个页面的作用域，可以定那个页面的id，在js中用<br/>
 	var  scope = angular.element("#manual" ).scope();//获取到当前作用域<br/>
-
+	
+<h4>《kendoui的一些骚操作》</h4><br/>
+(1)刷新grid表格数据源时的回调函数    vm.gridOptions.dataSource.read().then(function(){
+                console.log(  vm.gridOptions.dataSource._pristineData);
+            });
