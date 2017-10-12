@@ -102,3 +102,9 @@
 (1)刷新grid表格数据源时的回调函数    vm.gridOptions.dataSource.read().then(function(){
                 console.log(  vm.gridOptions.dataSource._pristineData);
             });
+ <h4>《js的一些常识》</h4><br/>
+(1)使用alert打印数据类型<br/>
+alert(typeof r.response);<br/>
+(2)string转成json格式<br/>
+var ss=JSON.parse(r.response)
+
