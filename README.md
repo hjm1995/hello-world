@@ -108,3 +108,6 @@ alert(typeof r.response);<br/>
 (2)string转成json格式<br/>
 var ss=JSON.parse(r.response)
 
+* [idea的破解方法](http://www.jianshu.com/p/ad3830095fb3)
+
+
