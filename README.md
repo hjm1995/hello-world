@@ -9,6 +9,7 @@
 * [URL传值符号转换](http://ghouleye.iteye.com/blog/704480)
 * [样式表中的 element.style样式如何修改](http://blog.csdn.net/chenguang79/article/details/46721971)
 * [代码之谜浮点数](http://justjavac.com/codepuzzle/2012/11/02/codepuzzle-float-from-surprised-to-ponder.html)
+* [idea的破解方法](http://www.jianshu.com/p/ad3830095fb3)
 <br/>
 在js的循环中。如果要合并的时候没，可以循环这个数值对象。看有多少次，然后计算出要合并的几次。在循环的结果中可以删减已循环的对象。这样可以加快循环。不用每次都去循环。浪费时间，但在删减的过程中要注意索引。要重置索引，当然在第二次可能中的循环也要的，看情况而定比如
 <br/>
@@ -108,6 +109,6 @@ alert(typeof r.response);<br/>
 (2)string转成json格式<br/>
 var ss=JSON.parse(r.response)
 
-* [idea的破解方法](http://www.jianshu.com/p/ad3830095fb3)
+
 
 
